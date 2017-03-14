@@ -5,7 +5,7 @@
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "pm2": "pm2 start src/loader.js --name gerenciador-de-tarefas"
+    "production": "pm2 start src/loader.js --name gerenciador-tarefas"
   },
   "keywords": [],
   "author": "",
